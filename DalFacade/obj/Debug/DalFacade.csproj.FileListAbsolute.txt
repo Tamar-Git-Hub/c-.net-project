@@ -1,0 +1,56 @@
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalFacade.deps.json
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalFacade.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalFacade.pdb
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.pdb
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\ref\DalFacade.dll
+M:\יד\DotNet2025_XXXX_YYYY\bin\DalFacade.deps.json
+M:\יד\DotNet2025_XXXX_YYYY\bin\DalFacade.dll
+M:\יד\DotNet2025_XXXX_YYYY\bin\DalFacade.pdb
+M:\יד\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\יד\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\יד\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\יד\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.dll
+M:\יד\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\יד\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.pdb
+M:\יד\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\ref\DalFacade.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalFacade.deps.json
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalFacade.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalFacade.pdb
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.pdb
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\ref\DalFacade.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.csproj.AssemblyReference.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalFacade.deps.json
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalFacade.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalFacade.pdb
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\refint\DalFacade.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.pdb
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\ref\DalFacade.dll
+M:\DotNet2025_XXXX_YYYY\bin\DalFacade.deps.json
+M:\DotNet2025_XXXX_YYYY\bin\DalFacade.dll
+M:\DotNet2025_XXXX_YYYY\bin\DalFacade.pdb
+M:\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+M:\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+M:\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+M:\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+M:\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.dll
+M:\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\refint\DalFacade.dll
+M:\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\DalFacade.pdb
+M:\DotNet2025_XXXX_YYYY\DalFacade\obj\Debug\ref\DalFacade.dll

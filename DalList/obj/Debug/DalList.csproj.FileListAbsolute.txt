@@ -1,0 +1,65 @@
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalList.deps.json
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalList.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalList.pdb
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\refint\DalList.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.pdb
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalList\obj\Debug\ref\DalList.dll
+M:\יד\DotNet2025_XXXX_YYYY\bin\DalList.deps.json
+M:\יד\DotNet2025_XXXX_YYYY\bin\DalList.dll
+M:\יד\DotNet2025_XXXX_YYYY\bin\DalList.pdb
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.dll
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\refint\DalList.dll
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.pdb
+M:\יד\DotNet2025_XXXX_YYYY\DalList\obj\Debug\ref\DalList.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalList.deps.json
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalList.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalList.pdb
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\refint\DalList.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.pdb
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\ref\DalList.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.CopyComplete
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalList.deps.json
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalList.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalList.pdb
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfo.cs
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.Up2Date
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\refint\DalList.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.pdb
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalList\obj\Debug\ref\DalList.dll
+M:\DotNet2025_XXXX_YYYY\bin\DalList.deps.json
+M:\DotNet2025_XXXX_YYYY\bin\DalList.dll
+M:\DotNet2025_XXXX_YYYY\bin\DalList.pdb
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.AssemblyInfo.cs
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.csproj.Up2Date
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.dll
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\refint\DalList.dll
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\DalList.pdb
+M:\DotNet2025_XXXX_YYYY\DalList\obj\Debug\ref\DalList.dll

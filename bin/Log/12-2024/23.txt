@@ -1,0 +1,424 @@
+23/12/2024 12:06:41	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1020, MinAmount = 2, Price = 45, Club = True, StartSaleDate = 24/12/2024 12:06:41, EndSaleDate = 30/12/2024 12:06:41 } Sale
+23/12/2024 12:06:41	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5000, MinAmount = 2, Price = 45, Club = True, StartSaleDate = 24/12/2024 12:06:41, EndSaleDate = 30/12/2024 12:06:41 } Sale
+23/12/2024 12:06:41	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1100, MinAmount = 1, Price = 20, Club = False, StartSaleDate = 23/12/2024 12:06:41, EndSaleDate = 06/01/2025 12:06:41 } Sale
+23/12/2024 12:06:41	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5010, MinAmount = 1, Price = 20, Club = False, StartSaleDate = 23/12/2024 12:06:41, EndSaleDate = 06/01/2025 12:06:41 } Sale
+23/12/2024 12:06:41	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1160, MinAmount = 3, Price = 55, Club = True, StartSaleDate = 24/12/2024 12:06:41, EndSaleDate = 27/12/2024 12:06:41 } Sale
+23/12/2024 12:06:41	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5020, MinAmount = 3, Price = 55, Club = True, StartSaleDate = 24/12/2024 12:06:41, EndSaleDate = 27/12/2024 12:06:41 } Sale
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Creamy pasta, Price = 30, AmountInStock = 20, category = milky } Product
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	 Product { Id = 1000, Name = Creamy pasta, Price = 30, AmountInStock = 20, category = milky } was added
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Creamy potato, Price = 45, AmountInStock = 15, category = milky } Product
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	 Product { Id = 1010, Name = Creamy potato, Price = 45, AmountInStock = 15, category = milky } was added
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Lezania, Price = 55, AmountInStock = 35, category = milky } Product
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	 Product { Id = 1020, Name = Lezania, Price = 55, AmountInStock = 35, category = milky } was added
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = pizza, Price = 20, AmountInStock = 100, category = milky } Product
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	 Product { Id = 1030, Name = pizza, Price = 20, AmountInStock = 100, category = milky } was added
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = ravioli, Price = 60, AmountInStock = 25, category = milky } Product
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	 Product { Id = 1040, Name = ravioli, Price = 60, AmountInStock = 25, category = milky } was added
+23/12/2024 12:06:41	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = salad with cheese, Price = 25, AmountInStock = 70, category = milky } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1050, Name = salad with cheese, Price = 25, AmountInStock = 70, category = milky } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Cream soup, Price = 40, AmountInStock = 30, category = milky } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1060, Name = Cream soup, Price = 40, AmountInStock = 30, category = milky } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Salmon in mustard, Price = 50, AmountInStock = 40, category = parve } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1070, Name = Salmon in mustard, Price = 50, AmountInStock = 40, category = parve } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Mullet fish, Price = 45, AmountInStock = 35, category = parve } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1080, Name = Mullet fish, Price = 45, AmountInStock = 35, category = parve } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Fish & chips, Price = 20, AmountInStock = 200, category = parve } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1090, Name = Fish & chips, Price = 20, AmountInStock = 200, category = parve } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Pumpkin soup, Price = 25, AmountInStock = 35, category = parve } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1100, Name = Pumpkin soup, Price = 25, AmountInStock = 35, category = parve } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Mushroom quiche, Price = 30, AmountInStock = 20, category = parve } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1110, Name = Mushroom quiche, Price = 30, AmountInStock = 20, category = parve } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Salad, Price = 30, AmountInStock = 60, category = parve } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1120, Name = Salad, Price = 30, AmountInStock = 60, category = parve } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = tortillas, Price = 45, AmountInStock = 10, category = parve } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1130, Name = tortillas, Price = 45, AmountInStock = 10, category = parve } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Asado, Price = 75, AmountInStock = 15, category = meaty } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1140, Name = Asado, Price = 75, AmountInStock = 15, category = meaty } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Meat cubes, Price = 70, AmountInStock = 20, category = meaty } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1150, Name = Meat cubes, Price = 70, AmountInStock = 20, category = meaty } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Steaks, Price = 60, AmountInStock = 20, category = meaty } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1160, Name = Steaks, Price = 60, AmountInStock = 20, category = meaty } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Bolognese pasta, Price = 55, AmountInStock = 25, category = meaty } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1170, Name = Bolognese pasta, Price = 55, AmountInStock = 25, category = meaty } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Grilled meat, Price = 80, AmountInStock = 30, category = meaty } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1180, Name = Grilled meat, Price = 80, AmountInStock = 30, category = meaty } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Schnitzel & chips, Price = 45, AmountInStock = 50, category = meaty } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1190, Name = Schnitzel & chips, Price = 45, AmountInStock = 50, category = meaty } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Fillo with minced meat, Price = 45, AmountInStock = 10, category = meaty } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1200, Name = Fillo with minced meat, Price = 45, AmountInStock = 10, category = meaty } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Ice coffee, Price = 15, AmountInStock = 250, category = milkDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1210, Name = Ice coffee, Price = 15, AmountInStock = 250, category = milkDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Vanilla ice cream, Price = 13, AmountInStock = 100, category = milkDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1220, Name = Vanilla ice cream, Price = 13, AmountInStock = 100, category = milkDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Milk shake, Price = 20, AmountInStock = 60, category = milkDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1230, Name = Milk shake, Price = 20, AmountInStock = 60, category = milkDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Yogurt ang orange drink, Price = 20, AmountInStock = 50, category = milkDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1240, Name = Yogurt ang orange drink, Price = 20, AmountInStock = 50, category = milkDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Cappuccino, Price = 25, AmountInStock = 125, category = milkDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1250, Name = Cappuccino, Price = 25, AmountInStock = 125, category = milkDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Chocolate drink, Price = 25, AmountInStock = 45, category = milkDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1260, Name = Chocolate drink, Price = 25, AmountInStock = 45, category = milkDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = STRAWBERRY MELON DRINK, Price = 27, AmountInStock = 40, category = milkDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1270, Name = STRAWBERRY MELON DRINK, Price = 27, AmountInStock = 40, category = milkDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Liquer, Price = 13, AmountInStock = 26, category = parveDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1280, Name = Liquer, Price = 13, AmountInStock = 26, category = parveDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = kolla, Price = 8, AmountInStock = 300, category = parveDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1290, Name = kolla, Price = 8, AmountInStock = 300, category = parveDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Orange drink, Price = 13, AmountInStock = 100, category = parveDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1300, Name = Orange drink, Price = 13, AmountInStock = 100, category = parveDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Soda, Price = 7, AmountInStock = 100, category = parveDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1310, Name = Soda, Price = 7, AmountInStock = 100, category = parveDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Lemon Lime, Price = 15, AmountInStock = 110, category = parveDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1320, Name = Lemon Lime, Price = 15, AmountInStock = 110, category = parveDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Natural pomegranate juice, Price = 28, AmountInStock = 50, category = parveDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1330, Name = Natural pomegranate juice, Price = 28, AmountInStock = 50, category = parveDrink } was added
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = rose wine, Price = 58, AmountInStock = 24, category = parveDrink } Product
+23/12/2024 12:06:42	Dal.ProductImplementation.Create:	 Product { Id = 1340, Name = rose wine, Price = 58, AmountInStock = 24, category = parveDrink } was added
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 55678924, Name = David levi, Address = Zait 34, Phon = 053-315-9804 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 90846483, Name = chani cohen, Address = Te'enna 2, Phon = 055-678-5635 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 23463747, Name = tamar green, Address = chitta 6, Phon = 052-716-0975 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 24354647, Name = shimon levin, Address = geffen 76, Phon = 058-321-3433 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 64784947, Name = gad lev, Address = ya'allom 21, Phon = 053-414-3453 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 97346477, Name = dan praga, Address = prachim 9, Phon = 050-415-3452 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 56734836, Name = tal feldman, Address = narkis 54, Phon = 055-677-0989 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 18181672, Name = gili lebel, Address = rakefet 3, Phon = 050-417-4544 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 95673855, Name = tzipi waiss, Address = sitvanit 88, Phon = 054-845-8986 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 78987603, Name = rut levi, Address = chamanya 1, Phon = 054-855-1234 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 56346346, Name = yair ben-tov, Address = etrog 91, Phon = 03-678-6734 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 86745843, Name = ron or-olam, Address = chermon 33, Phon = 054-348-4532 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 13254657, Name = itammar shalom, Address = yerushalaim 67, Phon = 050-956-3456 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 97634674, Name = pini marom, Address = vered 29, Phon = 054-855-1234 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create Customer { Identity = 34256576, Name = daniel A'aroni, Address = franck 50, Phon = 057-236-4532 } Customer
+23/12/2024 12:06:42	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:38	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1020, MinAmount = 2, Price = 45, Club = True, StartSaleDate = 24/12/2024 12:12:38, EndSaleDate = 30/12/2024 12:12:38 } Sale
+23/12/2024 12:12:38	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5000, MinAmount = 2, Price = 45, Club = True, StartSaleDate = 24/12/2024 12:12:38, EndSaleDate = 30/12/2024 12:12:38 } Sale
+23/12/2024 12:12:39	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1100, MinAmount = 1, Price = 20, Club = False, StartSaleDate = 23/12/2024 12:12:39, EndSaleDate = 06/01/2025 12:12:39 } Sale
+23/12/2024 12:12:39	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5010, MinAmount = 1, Price = 20, Club = False, StartSaleDate = 23/12/2024 12:12:39, EndSaleDate = 06/01/2025 12:12:39 } Sale
+23/12/2024 12:12:39	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1160, MinAmount = 3, Price = 55, Club = True, StartSaleDate = 24/12/2024 12:12:39, EndSaleDate = 27/12/2024 12:12:39 } Sale
+23/12/2024 12:12:39	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5020, MinAmount = 3, Price = 55, Club = True, StartSaleDate = 24/12/2024 12:12:39, EndSaleDate = 27/12/2024 12:12:39 } Sale
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Creamy pasta, Price = 30, AmountInStock = 20, category = milky } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1000, Name = Creamy pasta, Price = 30, AmountInStock = 20, category = milky } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Creamy potato, Price = 45, AmountInStock = 15, category = milky } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1010, Name = Creamy potato, Price = 45, AmountInStock = 15, category = milky } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Lezania, Price = 55, AmountInStock = 35, category = milky } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1020, Name = Lezania, Price = 55, AmountInStock = 35, category = milky } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = pizza, Price = 20, AmountInStock = 100, category = milky } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1030, Name = pizza, Price = 20, AmountInStock = 100, category = milky } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = ravioli, Price = 60, AmountInStock = 25, category = milky } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1040, Name = ravioli, Price = 60, AmountInStock = 25, category = milky } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = salad with cheese, Price = 25, AmountInStock = 70, category = milky } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1050, Name = salad with cheese, Price = 25, AmountInStock = 70, category = milky } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Cream soup, Price = 40, AmountInStock = 30, category = milky } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1060, Name = Cream soup, Price = 40, AmountInStock = 30, category = milky } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Salmon in mustard, Price = 50, AmountInStock = 40, category = parve } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1070, Name = Salmon in mustard, Price = 50, AmountInStock = 40, category = parve } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Mullet fish, Price = 45, AmountInStock = 35, category = parve } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1080, Name = Mullet fish, Price = 45, AmountInStock = 35, category = parve } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Fish & chips, Price = 20, AmountInStock = 200, category = parve } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1090, Name = Fish & chips, Price = 20, AmountInStock = 200, category = parve } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Pumpkin soup, Price = 25, AmountInStock = 35, category = parve } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1100, Name = Pumpkin soup, Price = 25, AmountInStock = 35, category = parve } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Mushroom quiche, Price = 30, AmountInStock = 20, category = parve } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1110, Name = Mushroom quiche, Price = 30, AmountInStock = 20, category = parve } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Salad, Price = 30, AmountInStock = 60, category = parve } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1120, Name = Salad, Price = 30, AmountInStock = 60, category = parve } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = tortillas, Price = 45, AmountInStock = 10, category = parve } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1130, Name = tortillas, Price = 45, AmountInStock = 10, category = parve } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Asado, Price = 75, AmountInStock = 15, category = meaty } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1140, Name = Asado, Price = 75, AmountInStock = 15, category = meaty } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Meat cubes, Price = 70, AmountInStock = 20, category = meaty } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1150, Name = Meat cubes, Price = 70, AmountInStock = 20, category = meaty } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Steaks, Price = 60, AmountInStock = 20, category = meaty } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1160, Name = Steaks, Price = 60, AmountInStock = 20, category = meaty } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Bolognese pasta, Price = 55, AmountInStock = 25, category = meaty } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1170, Name = Bolognese pasta, Price = 55, AmountInStock = 25, category = meaty } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Grilled meat, Price = 80, AmountInStock = 30, category = meaty } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1180, Name = Grilled meat, Price = 80, AmountInStock = 30, category = meaty } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Schnitzel & chips, Price = 45, AmountInStock = 50, category = meaty } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1190, Name = Schnitzel & chips, Price = 45, AmountInStock = 50, category = meaty } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Fillo with minced meat, Price = 45, AmountInStock = 10, category = meaty } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1200, Name = Fillo with minced meat, Price = 45, AmountInStock = 10, category = meaty } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Ice coffee, Price = 15, AmountInStock = 250, category = milkDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1210, Name = Ice coffee, Price = 15, AmountInStock = 250, category = milkDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Vanilla ice cream, Price = 13, AmountInStock = 100, category = milkDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1220, Name = Vanilla ice cream, Price = 13, AmountInStock = 100, category = milkDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Milk shake, Price = 20, AmountInStock = 60, category = milkDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1230, Name = Milk shake, Price = 20, AmountInStock = 60, category = milkDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Yogurt ang orange drink, Price = 20, AmountInStock = 50, category = milkDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1240, Name = Yogurt ang orange drink, Price = 20, AmountInStock = 50, category = milkDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Cappuccino, Price = 25, AmountInStock = 125, category = milkDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1250, Name = Cappuccino, Price = 25, AmountInStock = 125, category = milkDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Chocolate drink, Price = 25, AmountInStock = 45, category = milkDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1260, Name = Chocolate drink, Price = 25, AmountInStock = 45, category = milkDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = STRAWBERRY MELON DRINK, Price = 27, AmountInStock = 40, category = milkDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1270, Name = STRAWBERRY MELON DRINK, Price = 27, AmountInStock = 40, category = milkDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Liquer, Price = 13, AmountInStock = 26, category = parveDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1280, Name = Liquer, Price = 13, AmountInStock = 26, category = parveDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = kolla, Price = 8, AmountInStock = 300, category = parveDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1290, Name = kolla, Price = 8, AmountInStock = 300, category = parveDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Orange drink, Price = 13, AmountInStock = 100, category = parveDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1300, Name = Orange drink, Price = 13, AmountInStock = 100, category = parveDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Soda, Price = 7, AmountInStock = 100, category = parveDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1310, Name = Soda, Price = 7, AmountInStock = 100, category = parveDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Lemon Lime, Price = 15, AmountInStock = 110, category = parveDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1320, Name = Lemon Lime, Price = 15, AmountInStock = 110, category = parveDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Natural pomegranate juice, Price = 28, AmountInStock = 50, category = parveDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1330, Name = Natural pomegranate juice, Price = 28, AmountInStock = 50, category = parveDrink } was added
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = rose wine, Price = 58, AmountInStock = 24, category = parveDrink } Product
+23/12/2024 12:12:39	Dal.ProductImplementation.Create:	 Product { Id = 1340, Name = rose wine, Price = 58, AmountInStock = 24, category = parveDrink } was added
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 55678924, Name = David levi, Address = Zait 34, Phon = 053-315-9804 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 90846483, Name = chani cohen, Address = Te'enna 2, Phon = 055-678-5635 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 23463747, Name = tamar green, Address = chitta 6, Phon = 052-716-0975 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 24354647, Name = shimon levin, Address = geffen 76, Phon = 058-321-3433 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 64784947, Name = gad lev, Address = ya'allom 21, Phon = 053-414-3453 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 97346477, Name = dan praga, Address = prachim 9, Phon = 050-415-3452 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 56734836, Name = tal feldman, Address = narkis 54, Phon = 055-677-0989 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 18181672, Name = gili lebel, Address = rakefet 3, Phon = 050-417-4544 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 95673855, Name = tzipi waiss, Address = sitvanit 88, Phon = 054-845-8986 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 78987603, Name = rut levi, Address = chamanya 1, Phon = 054-855-1234 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 56346346, Name = yair ben-tov, Address = etrog 91, Phon = 03-678-6734 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 86745843, Name = ron or-olam, Address = chermon 33, Phon = 054-348-4532 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 13254657, Name = itammar shalom, Address = yerushalaim 67, Phon = 050-956-3456 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 97634674, Name = pini marom, Address = vered 29, Phon = 054-855-1234 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create Customer { Identity = 34256576, Name = daniel A'aroni, Address = franck 50, Phon = 057-236-4532 } Customer
+23/12/2024 12:12:39	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1020, MinAmount = 2, Price = 45, Club = True, StartSaleDate = 24/12/2024 12:13:11, EndSaleDate = 30/12/2024 12:13:11 } Sale
+23/12/2024 12:13:11	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5000, MinAmount = 2, Price = 45, Club = True, StartSaleDate = 24/12/2024 12:13:11, EndSaleDate = 30/12/2024 12:13:11 } Sale
+23/12/2024 12:13:11	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1100, MinAmount = 1, Price = 20, Club = False, StartSaleDate = 23/12/2024 12:13:11, EndSaleDate = 06/01/2025 12:13:11 } Sale
+23/12/2024 12:13:11	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5010, MinAmount = 1, Price = 20, Club = False, StartSaleDate = 23/12/2024 12:13:11, EndSaleDate = 06/01/2025 12:13:11 } Sale
+23/12/2024 12:13:11	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1160, MinAmount = 3, Price = 55, Club = True, StartSaleDate = 24/12/2024 12:13:11, EndSaleDate = 27/12/2024 12:13:11 } Sale
+23/12/2024 12:13:11	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5020, MinAmount = 3, Price = 55, Club = True, StartSaleDate = 24/12/2024 12:13:11, EndSaleDate = 27/12/2024 12:13:11 } Sale
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Creamy pasta, Price = 30, AmountInStock = 20, category = milky } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1000, Name = Creamy pasta, Price = 30, AmountInStock = 20, category = milky } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Creamy potato, Price = 45, AmountInStock = 15, category = milky } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1010, Name = Creamy potato, Price = 45, AmountInStock = 15, category = milky } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Lezania, Price = 55, AmountInStock = 35, category = milky } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1020, Name = Lezania, Price = 55, AmountInStock = 35, category = milky } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = pizza, Price = 20, AmountInStock = 100, category = milky } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1030, Name = pizza, Price = 20, AmountInStock = 100, category = milky } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = ravioli, Price = 60, AmountInStock = 25, category = milky } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1040, Name = ravioli, Price = 60, AmountInStock = 25, category = milky } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = salad with cheese, Price = 25, AmountInStock = 70, category = milky } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1050, Name = salad with cheese, Price = 25, AmountInStock = 70, category = milky } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Cream soup, Price = 40, AmountInStock = 30, category = milky } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1060, Name = Cream soup, Price = 40, AmountInStock = 30, category = milky } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Salmon in mustard, Price = 50, AmountInStock = 40, category = parve } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1070, Name = Salmon in mustard, Price = 50, AmountInStock = 40, category = parve } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Mullet fish, Price = 45, AmountInStock = 35, category = parve } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1080, Name = Mullet fish, Price = 45, AmountInStock = 35, category = parve } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Fish & chips, Price = 20, AmountInStock = 200, category = parve } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1090, Name = Fish & chips, Price = 20, AmountInStock = 200, category = parve } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Pumpkin soup, Price = 25, AmountInStock = 35, category = parve } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1100, Name = Pumpkin soup, Price = 25, AmountInStock = 35, category = parve } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Mushroom quiche, Price = 30, AmountInStock = 20, category = parve } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1110, Name = Mushroom quiche, Price = 30, AmountInStock = 20, category = parve } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Salad, Price = 30, AmountInStock = 60, category = parve } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1120, Name = Salad, Price = 30, AmountInStock = 60, category = parve } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = tortillas, Price = 45, AmountInStock = 10, category = parve } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1130, Name = tortillas, Price = 45, AmountInStock = 10, category = parve } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Asado, Price = 75, AmountInStock = 15, category = meaty } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1140, Name = Asado, Price = 75, AmountInStock = 15, category = meaty } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Meat cubes, Price = 70, AmountInStock = 20, category = meaty } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1150, Name = Meat cubes, Price = 70, AmountInStock = 20, category = meaty } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Steaks, Price = 60, AmountInStock = 20, category = meaty } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1160, Name = Steaks, Price = 60, AmountInStock = 20, category = meaty } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Bolognese pasta, Price = 55, AmountInStock = 25, category = meaty } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1170, Name = Bolognese pasta, Price = 55, AmountInStock = 25, category = meaty } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Grilled meat, Price = 80, AmountInStock = 30, category = meaty } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1180, Name = Grilled meat, Price = 80, AmountInStock = 30, category = meaty } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Schnitzel & chips, Price = 45, AmountInStock = 50, category = meaty } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1190, Name = Schnitzel & chips, Price = 45, AmountInStock = 50, category = meaty } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Fillo with minced meat, Price = 45, AmountInStock = 10, category = meaty } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1200, Name = Fillo with minced meat, Price = 45, AmountInStock = 10, category = meaty } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Ice coffee, Price = 15, AmountInStock = 250, category = milkDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1210, Name = Ice coffee, Price = 15, AmountInStock = 250, category = milkDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Vanilla ice cream, Price = 13, AmountInStock = 100, category = milkDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1220, Name = Vanilla ice cream, Price = 13, AmountInStock = 100, category = milkDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Milk shake, Price = 20, AmountInStock = 60, category = milkDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1230, Name = Milk shake, Price = 20, AmountInStock = 60, category = milkDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Yogurt ang orange drink, Price = 20, AmountInStock = 50, category = milkDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1240, Name = Yogurt ang orange drink, Price = 20, AmountInStock = 50, category = milkDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Cappuccino, Price = 25, AmountInStock = 125, category = milkDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1250, Name = Cappuccino, Price = 25, AmountInStock = 125, category = milkDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Chocolate drink, Price = 25, AmountInStock = 45, category = milkDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1260, Name = Chocolate drink, Price = 25, AmountInStock = 45, category = milkDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = STRAWBERRY MELON DRINK, Price = 27, AmountInStock = 40, category = milkDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1270, Name = STRAWBERRY MELON DRINK, Price = 27, AmountInStock = 40, category = milkDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Liquer, Price = 13, AmountInStock = 26, category = parveDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1280, Name = Liquer, Price = 13, AmountInStock = 26, category = parveDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = kolla, Price = 8, AmountInStock = 300, category = parveDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1290, Name = kolla, Price = 8, AmountInStock = 300, category = parveDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Orange drink, Price = 13, AmountInStock = 100, category = parveDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1300, Name = Orange drink, Price = 13, AmountInStock = 100, category = parveDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Soda, Price = 7, AmountInStock = 100, category = parveDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1310, Name = Soda, Price = 7, AmountInStock = 100, category = parveDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Lemon Lime, Price = 15, AmountInStock = 110, category = parveDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1320, Name = Lemon Lime, Price = 15, AmountInStock = 110, category = parveDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Natural pomegranate juice, Price = 28, AmountInStock = 50, category = parveDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1330, Name = Natural pomegranate juice, Price = 28, AmountInStock = 50, category = parveDrink } was added
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = rose wine, Price = 58, AmountInStock = 24, category = parveDrink } Product
+23/12/2024 12:13:11	Dal.ProductImplementation.Create:	 Product { Id = 1340, Name = rose wine, Price = 58, AmountInStock = 24, category = parveDrink } was added
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 55678924, Name = David levi, Address = Zait 34, Phon = 053-315-9804 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 90846483, Name = chani cohen, Address = Te'enna 2, Phon = 055-678-5635 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 23463747, Name = tamar green, Address = chitta 6, Phon = 052-716-0975 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 24354647, Name = shimon levin, Address = geffen 76, Phon = 058-321-3433 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 64784947, Name = gad lev, Address = ya'allom 21, Phon = 053-414-3453 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 97346477, Name = dan praga, Address = prachim 9, Phon = 050-415-3452 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 56734836, Name = tal feldman, Address = narkis 54, Phon = 055-677-0989 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 18181672, Name = gili lebel, Address = rakefet 3, Phon = 050-417-4544 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 95673855, Name = tzipi waiss, Address = sitvanit 88, Phon = 054-845-8986 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 78987603, Name = rut levi, Address = chamanya 1, Phon = 054-855-1234 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 56346346, Name = yair ben-tov, Address = etrog 91, Phon = 03-678-6734 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 86745843, Name = ron or-olam, Address = chermon 33, Phon = 054-348-4532 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 13254657, Name = itammar shalom, Address = yerushalaim 67, Phon = 050-956-3456 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 97634674, Name = pini marom, Address = vered 29, Phon = 054-855-1234 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create Customer { Identity = 34256576, Name = daniel A'aroni, Address = franck 50, Phon = 057-236-4532 } Customer
+23/12/2024 12:13:11	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:49	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1020, MinAmount = 2, Price = 45, Club = True, StartSaleDate = 24/12/2024 12:22:49, EndSaleDate = 30/12/2024 12:22:49 } Sale
+23/12/2024 12:22:49	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5000, MinAmount = 2, Price = 45, Club = True, StartSaleDate = 24/12/2024 12:22:49, EndSaleDate = 30/12/2024 12:22:49 } Sale
+23/12/2024 12:22:49	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1100, MinAmount = 1, Price = 20, Club = False, StartSaleDate = 23/12/2024 12:22:49, EndSaleDate = 06/01/2025 12:22:49 } Sale
+23/12/2024 12:22:49	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5010, MinAmount = 1, Price = 20, Club = False, StartSaleDate = 23/12/2024 12:22:49, EndSaleDate = 06/01/2025 12:22:49 } Sale
+23/12/2024 12:22:49	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 1160, MinAmount = 3, Price = 55, Club = True, StartSaleDate = 24/12/2024 12:22:49, EndSaleDate = 27/12/2024 12:22:49 } Sale
+23/12/2024 12:22:49	Dal.SaleImplementation.Create:	Create Sale { codeIndex = 0, ProductId = 5020, MinAmount = 3, Price = 55, Club = True, StartSaleDate = 24/12/2024 12:22:49, EndSaleDate = 27/12/2024 12:22:49 } Sale
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Creamy pasta, Price = 30, AmountInStock = 20, category = milky } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1000, Name = Creamy pasta, Price = 30, AmountInStock = 20, category = milky } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Creamy potato, Price = 45, AmountInStock = 15, category = milky } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1010, Name = Creamy potato, Price = 45, AmountInStock = 15, category = milky } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Lezania, Price = 55, AmountInStock = 35, category = milky } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1020, Name = Lezania, Price = 55, AmountInStock = 35, category = milky } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = pizza, Price = 20, AmountInStock = 100, category = milky } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1030, Name = pizza, Price = 20, AmountInStock = 100, category = milky } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = ravioli, Price = 60, AmountInStock = 25, category = milky } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1040, Name = ravioli, Price = 60, AmountInStock = 25, category = milky } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = salad with cheese, Price = 25, AmountInStock = 70, category = milky } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1050, Name = salad with cheese, Price = 25, AmountInStock = 70, category = milky } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Cream soup, Price = 40, AmountInStock = 30, category = milky } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1060, Name = Cream soup, Price = 40, AmountInStock = 30, category = milky } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Salmon in mustard, Price = 50, AmountInStock = 40, category = parve } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1070, Name = Salmon in mustard, Price = 50, AmountInStock = 40, category = parve } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Mullet fish, Price = 45, AmountInStock = 35, category = parve } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1080, Name = Mullet fish, Price = 45, AmountInStock = 35, category = parve } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Fish & chips, Price = 20, AmountInStock = 200, category = parve } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1090, Name = Fish & chips, Price = 20, AmountInStock = 200, category = parve } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Pumpkin soup, Price = 25, AmountInStock = 35, category = parve } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1100, Name = Pumpkin soup, Price = 25, AmountInStock = 35, category = parve } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Mushroom quiche, Price = 30, AmountInStock = 20, category = parve } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1110, Name = Mushroom quiche, Price = 30, AmountInStock = 20, category = parve } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Salad, Price = 30, AmountInStock = 60, category = parve } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1120, Name = Salad, Price = 30, AmountInStock = 60, category = parve } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = tortillas, Price = 45, AmountInStock = 10, category = parve } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1130, Name = tortillas, Price = 45, AmountInStock = 10, category = parve } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Asado, Price = 75, AmountInStock = 15, category = meaty } Product
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	 Product { Id = 1140, Name = Asado, Price = 75, AmountInStock = 15, category = meaty } was added
+23/12/2024 12:22:49	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Meat cubes, Price = 70, AmountInStock = 20, category = meaty } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1150, Name = Meat cubes, Price = 70, AmountInStock = 20, category = meaty } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Steaks, Price = 60, AmountInStock = 20, category = meaty } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1160, Name = Steaks, Price = 60, AmountInStock = 20, category = meaty } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Bolognese pasta, Price = 55, AmountInStock = 25, category = meaty } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1170, Name = Bolognese pasta, Price = 55, AmountInStock = 25, category = meaty } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Grilled meat, Price = 80, AmountInStock = 30, category = meaty } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1180, Name = Grilled meat, Price = 80, AmountInStock = 30, category = meaty } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Schnitzel & chips, Price = 45, AmountInStock = 50, category = meaty } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1190, Name = Schnitzel & chips, Price = 45, AmountInStock = 50, category = meaty } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Fillo with minced meat, Price = 45, AmountInStock = 10, category = meaty } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1200, Name = Fillo with minced meat, Price = 45, AmountInStock = 10, category = meaty } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Ice coffee, Price = 15, AmountInStock = 250, category = milkDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1210, Name = Ice coffee, Price = 15, AmountInStock = 250, category = milkDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Vanilla ice cream, Price = 13, AmountInStock = 100, category = milkDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1220, Name = Vanilla ice cream, Price = 13, AmountInStock = 100, category = milkDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Milk shake, Price = 20, AmountInStock = 60, category = milkDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1230, Name = Milk shake, Price = 20, AmountInStock = 60, category = milkDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Yogurt ang orange drink, Price = 20, AmountInStock = 50, category = milkDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1240, Name = Yogurt ang orange drink, Price = 20, AmountInStock = 50, category = milkDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Cappuccino, Price = 25, AmountInStock = 125, category = milkDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1250, Name = Cappuccino, Price = 25, AmountInStock = 125, category = milkDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Chocolate drink, Price = 25, AmountInStock = 45, category = milkDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1260, Name = Chocolate drink, Price = 25, AmountInStock = 45, category = milkDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = STRAWBERRY MELON DRINK, Price = 27, AmountInStock = 40, category = milkDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1270, Name = STRAWBERRY MELON DRINK, Price = 27, AmountInStock = 40, category = milkDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Liquer, Price = 13, AmountInStock = 26, category = parveDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1280, Name = Liquer, Price = 13, AmountInStock = 26, category = parveDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = kolla, Price = 8, AmountInStock = 300, category = parveDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1290, Name = kolla, Price = 8, AmountInStock = 300, category = parveDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Orange drink, Price = 13, AmountInStock = 100, category = parveDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1300, Name = Orange drink, Price = 13, AmountInStock = 100, category = parveDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Soda, Price = 7, AmountInStock = 100, category = parveDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1310, Name = Soda, Price = 7, AmountInStock = 100, category = parveDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Lemon Lime, Price = 15, AmountInStock = 110, category = parveDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1320, Name = Lemon Lime, Price = 15, AmountInStock = 110, category = parveDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = Natural pomegranate juice, Price = 28, AmountInStock = 50, category = parveDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1330, Name = Natural pomegranate juice, Price = 28, AmountInStock = 50, category = parveDrink } was added
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	Create Product { Id = 0, Name = rose wine, Price = 58, AmountInStock = 24, category = parveDrink } Product
+23/12/2024 12:22:50	Dal.ProductImplementation.Create:	 Product { Id = 1340, Name = rose wine, Price = 58, AmountInStock = 24, category = parveDrink } was added
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 55678924, Name = David levi, Address = Zait 34, Phon = 053-315-9804 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 90846483, Name = chani cohen, Address = Te'enna 2, Phon = 055-678-5635 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 23463747, Name = tamar green, Address = chitta 6, Phon = 052-716-0975 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 24354647, Name = shimon levin, Address = geffen 76, Phon = 058-321-3433 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 64784947, Name = gad lev, Address = ya'allom 21, Phon = 053-414-3453 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 97346477, Name = dan praga, Address = prachim 9, Phon = 050-415-3452 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 56734836, Name = tal feldman, Address = narkis 54, Phon = 055-677-0989 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 18181672, Name = gili lebel, Address = rakefet 3, Phon = 050-417-4544 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 95673855, Name = tzipi waiss, Address = sitvanit 88, Phon = 054-845-8986 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 78987603, Name = rut levi, Address = chamanya 1, Phon = 054-855-1234 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 56346346, Name = yair ben-tov, Address = etrog 91, Phon = 03-678-6734 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 86745843, Name = ron or-olam, Address = chermon 33, Phon = 054-348-4532 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 13254657, Name = itammar shalom, Address = yerushalaim 67, Phon = 050-956-3456 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 97634674, Name = pini marom, Address = vered 29, Phon = 054-855-1234 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create Customer { Identity = 34256576, Name = daniel A'aroni, Address = franck 50, Phon = 057-236-4532 } Customer
+23/12/2024 12:22:50	Dal.CustomerImplementation.Create:	Create False Customer

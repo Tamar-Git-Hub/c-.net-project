@@ -1,0 +1,11 @@
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\bin\Debug\net8.0\DalXml.deps.json
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\bin\Debug\net8.0\DalXml.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\bin\Debug\net8.0\DalXml.pdb
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\obj\Debug\net8.0\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfoInputs.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfo.cs
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\obj\Debug\net8.0\DalXml.csproj.CoreCompileInputs.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\obj\Debug\net8.0\DalXml.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\obj\Debug\net8.0\refint\DalXml.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\obj\Debug\net8.0\DalXml.pdb
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalXml\obj\Debug\net8.0\ref\DalXml.dll

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct>
+  <Product>
+    <Id>3260</Id>
+    <Name>Creamy pasta</Name>
+    <Price>30</Price>
+    <AmountInStock>13</AmountInStock>
+    <category>milky</category>
+  </Product>
+  <Product>
+    <Id>3270</Id>
+    <Name>Creamy potato</Name>
+    <Price>45</Price>
+    <AmountInStock>15</AmountInStock>
+    <category>milky</category>
+  </Product>
+  <Product>
+    <Id>3280</Id>
+    <Name>Lezania</Name>
+    <Price>55</Price>
+    <AmountInStock>35</AmountInStock>
+    <category>milky</category>
+  </Product>
+  <Product>
+    <Id>3290</Id>
+    <Name>pizza</Name>
+    <Price>20</Price>
+    <AmountInStock>100</AmountInStock>
+    <category>milky</category>
+  </Product>
+  <Product>
+    <Id>3300</Id>
+    <Name>ravioli</Name>
+    <Price>60</Price>
+    <AmountInStock>25</AmountInStock>
+    <category>milky</category>
+  </Product>
+  <Product>
+    <Id>3310</Id>
+    <Name>salad with cheese</Name>
+    <Price>25</Price>
+    <AmountInStock>70</AmountInStock>
+    <category>milky</category>
+  </Product>
+  <Product>
+    <Id>3320</Id>
+    <Name>Cream soup</Name>
+    <Price>40</Price>
+    <AmountInStock>30</AmountInStock>
+    <category>milky</category>
+  </Product>
+  <Product>
+    <Id>3330</Id>
+    <Name>Salmon in mustard</Name>
+    <Price>50</Price>
+    <AmountInStock>40</AmountInStock>
+    <category>parve</category>
+  </Product>
+  <Product>
+    <Id>3340</Id>
+    <Name>Mullet fish</Name>
+    <Price>45</Price>
+    <AmountInStock>35</AmountInStock>
+    <category>parve</category>
+  </Product>
+  <Product>
+    <Id>3350</Id>
+    <Name>Fish &amp; chips</Name>
+    <Price>20</Price>
+    <AmountInStock>200</AmountInStock>
+    <category>parve</category>
+  </Product>
+  <Product>
+    <Id>3360</Id>
+    <Name>Pumpkin soup</Name>
+    <Price>25</Price>
+    <AmountInStock>35</AmountInStock>
+    <category>parve</category>
+  </Product>
+  <Product>
+    <Id>3370</Id>
+    <Name>Mushroom quiche</Name>
+    <Price>30</Price>
+    <AmountInStock>20</AmountInStock>
+    <category>parve</category>
+  </Product>
+  <Product>
+    <Id>3380</Id>
+    <Name>Salad</Name>
+    <Price>30</Price>
+    <AmountInStock>60</AmountInStock>
+    <category>parve</category>
+  </Product>
+  <Product>
+    <Id>3390</Id>
+    <Name>tortillas</Name>
+    <Price>45</Price>
+    <AmountInStock>10</AmountInStock>
+    <category>parve</category>
+  </Product>
+  <Product>
+    <Id>3400</Id>
+    <Name>Asado</Name>
+    <Price>75</Price>
+    <AmountInStock>15</AmountInStock>
+    <category>meaty</category>
+  </Product>
+  <Product>
+    <Id>3410</Id>
+    <Name>Meat cubes</Name>
+    <Price>70</Price>
+    <AmountInStock>20</AmountInStock>
+    <category>meaty</category>
+  </Product>
+  <Product>
+    <Id>3420</Id>
+    <Name>Steaks</Name>
+    <Price>60</Price>
+    <AmountInStock>20</AmountInStock>
+    <category>meaty</category>
+  </Product>
+  <Product>
+    <Id>3430</Id>
+    <Name>Bolognese pasta</Name>
+    <Price>55</Price>
+    <AmountInStock>25</AmountInStock>
+    <category>meaty</category>
+  </Product>
+  <Product>
+    <Id>3440</Id>
+    <Name>Grilled meat</Name>
+    <Price>80</Price>
+    <AmountInStock>30</AmountInStock>
+    <category>meaty</category>
+  </Product>
+  <Product>
+    <Id>3450</Id>
+    <Name>Schnitzel &amp; chips</Name>
+    <Price>45</Price>
+    <AmountInStock>50</AmountInStock>
+    <category>meaty</category>
+  </Product>
+  <Product>
+    <Id>3460</Id>
+    <Name>Fillo with minced meat</Name>
+    <Price>45</Price>
+    <AmountInStock>10</AmountInStock>
+    <category>meaty</category>
+  </Product>
+  <Product>
+    <Id>3470</Id>
+    <Name>Ice coffee</Name>
+    <Price>15</Price>
+    <AmountInStock>250</AmountInStock>
+    <category>milkDrink</category>
+  </Product>
+  <Product>
+    <Id>3480</Id>
+    <Name>Vanilla ice cream</Name>
+    <Price>13</Price>
+    <AmountInStock>100</AmountInStock>
+    <category>milkDrink</category>
+  </Product>
+  <Product>
+    <Id>3490</Id>
+    <Name>Milk shake</Name>
+    <Price>20</Price>
+    <AmountInStock>60</AmountInStock>
+    <category>milkDrink</category>
+  </Product>
+  <Product>
+    <Id>3500</Id>
+    <Name>Yogurt ang orange drink</Name>
+    <Price>20</Price>
+    <AmountInStock>50</AmountInStock>
+    <category>milkDrink</category>
+  </Product>
+  <Product>
+    <Id>3510</Id>
+    <Name>Cappuccino</Name>
+    <Price>25</Price>
+    <AmountInStock>125</AmountInStock>
+    <category>milkDrink</category>
+  </Product>
+  <Product>
+    <Id>3520</Id>
+    <Name>Chocolate drink</Name>
+    <Price>25</Price>
+    <AmountInStock>45</AmountInStock>
+    <category>milkDrink</category>
+  </Product>
+  <Product>
+    <Id>3530</Id>
+    <Name>STRAWBERRY MELON DRINK</Name>
+    <Price>27</Price>
+    <AmountInStock>40</AmountInStock>
+    <category>milkDrink</category>
+  </Product>
+  <Product>
+    <Id>3540</Id>
+    <Name>Liquer</Name>
+    <Price>13</Price>
+    <AmountInStock>26</AmountInStock>
+    <category>parveDrink</category>
+  </Product>
+  <Product>
+    <Id>3550</Id>
+    <Name>kolla</Name>
+    <Price>8</Price>
+    <AmountInStock>300</AmountInStock>
+    <category>parveDrink</category>
+  </Product>
+  <Product>
+    <Id>3560</Id>
+    <Name>Orange drink</Name>
+    <Price>13</Price>
+    <AmountInStock>100</AmountInStock>
+    <category>parveDrink</category>
+  </Product>
+  <Product>
+    <Id>3570</Id>
+    <Name>Soda</Name>
+    <Price>7</Price>
+    <AmountInStock>100</AmountInStock>
+    <category>parveDrink</category>
+  </Product>
+  <Product>
+    <Id>3580</Id>
+    <Name>Lemon Lime</Name>
+    <Price>15</Price>
+    <AmountInStock>110</AmountInStock>
+    <category>parveDrink</category>
+  </Product>
+  <Product>
+    <Id>3590</Id>
+    <Name>Natural pomegranate juice</Name>
+    <Price>28</Price>
+    <AmountInStock>50</AmountInStock>
+    <category>parveDrink</category>
+  </Product>
+  <Product>
+    <Id>3600</Id>
+    <Name>rose wine</Name>
+    <Price>58</Price>
+    <AmountInStock>24</AmountInStock>
+    <category>parveDrink</category>
+  </Product>
+</ArrayOfProduct>

@@ -1,0 +1,72 @@
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.AssemblyReference.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfoInputs.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfo.cs
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.CoreCompileInputs.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalText.exe
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalText.deps.json
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalText.runtimeconfig.json
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalText.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\bin\DalText.pdb
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.Up2Date
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\refint\DalText.dll
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.pdb
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.genruntimeconfig.cache
+M:\יד\c#.net\פרויקט דוט נט\DotNet2025_XXXX_YYYY\DalText\obj\Debug\ref\DalText.dll
+M:\יד\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.AssemblyReference.cache
+M:\יד\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfoInputs.cache
+M:\יד\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfo.cs
+M:\יד\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.CoreCompileInputs.cache
+M:\יד\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.dll
+M:\יד\DotNet2025_XXXX_YYYY\DalText\obj\Debug\refint\DalText.dll
+M:\יד\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.pdb
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.exe
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.deps.json
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.runtimeconfig.json
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.pdb
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.AssemblyReference.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.GeneratedMSBuildEditorConfig.editorconfig
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfoInputs.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfo.cs
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.CoreCompileInputs.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.CopyComplete
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\refint\DalText.dll
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.pdb
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.genruntimeconfig.cache
+M:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\ref\DalText.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.exe
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.deps.json
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.runtimeconfig.json
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\bin\DalText.pdb
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.AssemblyReference.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.GeneratedMSBuildEditorConfig.editorconfig
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfoInputs.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfo.cs
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.CoreCompileInputs.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.Up2Date
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\refint\DalText.dll
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.pdb
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.genruntimeconfig.cache
+D:\יד\c#.net\DotNet2025_XXXX_YYYY\DalText\obj\Debug\ref\DalText.dll
+M:\DotNet2025_XXXX_YYYY\bin\DalText.exe
+M:\DotNet2025_XXXX_YYYY\bin\DalText.deps.json
+M:\DotNet2025_XXXX_YYYY\bin\DalText.runtimeconfig.json
+M:\DotNet2025_XXXX_YYYY\bin\DalText.dll
+M:\DotNet2025_XXXX_YYYY\bin\DalText.pdb
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.AssemblyReference.cache
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.GeneratedMSBuildEditorConfig.editorconfig
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfoInputs.cache
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.AssemblyInfo.cs
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.CoreCompileInputs.cache
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.csproj.Up2Date
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.dll
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\refint\DalText.dll
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.pdb
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\DalText.genruntimeconfig.cache
+M:\DotNet2025_XXXX_YYYY\DalText\obj\Debug\ref\DalText.dll

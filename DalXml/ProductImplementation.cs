@@ -2,6 +2,7 @@
 using DO;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Reflection;
@@ -40,23 +41,45 @@ namespace Dal
         public void Delete(int id)
         {
             XElement productXml = XElement.Load(filePath);
-            productXml.Descendants(ID).FirstOrDefault(p => p.Value.Equals(id)).Parent.Remove();
-            productXml.Save(filePath);
+            XElement elementToRemove = productXml.Descendants(ID).FirstOrDefault(p => p.Value.Equals(id.ToString()));
+
+            if (elementToRemove != null)
+            {
+                elementToRemove.Parent.Remove();
+                productXml.Save(filePath);
+            }
+            else
+            {
+                throw new InvalidOperationException($"לא נמצא מוצר עם ID '{id}'.");
+            }
         }
 
         public Product? Read(int id)
         {
-            XElement productXml = XElement.Load(filePath);
-            var xel = productXml.Descendants(ID).FirstOrDefault(p => p.Value== id.ToString()).Parent;
-            Product product = new Product(
-                                         int.Parse(xel.Element(ID).Value),
-                                         xel.Element(NAME).Value,
-                                         double.Parse(xel.Element(PRICE).Value),
-                                         int.Parse(xel.Element(AMOUNT_IN_STOCK).Value),
-                                         (Categories)Enum.Parse(typeof(Categories), xel.Element(CATEGORY).Value));
-            return product;
+            try
+            {
+                XElement productXml = XElement.Load(filePath);
+                var xel = productXml.Descendants(ID).FirstOrDefault(p => p.Value == id.ToString())?.Parent;
 
+                if (xel != null)
+                {
+                    Product product = new Product(
+                        int.Parse(xel.Element(ID)?.Value ), 
+                        xel.Element(NAME)?.Value ,
+                        double.Parse(xel.Element(PRICE)?.Value ),
+                        int.Parse(xel.Element(AMOUNT_IN_STOCK)?.Value),
+                        (Categories)Enum.Parse(typeof(Categories), xel.Element(CATEGORY)?.Value )
+                    );
+                    return product;
+                }
+                return null;
 
+            }
+            catch (Exception ex)
+            {
+               
+                return null;
+            }
         }
 
         public Product? Read(Func<Product, bool>? filter)
@@ -86,17 +109,12 @@ namespace Dal
 
             return filter != null ? products.Where(filter).ToList() : products;
 
-
-
-
-
-
         }
 
         public void Update(Product item)
         {
             XElement productXml = XElement.Load(filePath);
-            XElement p = productXml.Descendants("Id").First(id => int.Parse(id.Value) == item.Id).Parent;
+            XElement p = productXml.Descendants(ID).First(id => int.Parse(id.Value) == item.Id).Parent;
             p.Element(PRICE).SetValue(item.Price);
             p.Element(NAME).SetValue(item.Name);
             p.Element(AMOUNT_IN_STOCK).SetValue(item.AmountInStock);

@@ -12,7 +12,7 @@ namespace UI
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button_manager_Click(object sender, EventArgs e)
         {
             Manager manager = new Manager();
             this.Hide();
@@ -24,5 +24,15 @@ namespace UI
         {
             this.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormOrder order = new FormOrder();
+            this.Hide();
+            order.FormClosed += Manager_FormClosed;
+            order.Show();
+        }
+
+       
     }
 }

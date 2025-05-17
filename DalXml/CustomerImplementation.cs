@@ -19,9 +19,11 @@ namespace Dal
             using (StreamReader sr = new StreamReader(filePath))
             {
                 list = serializer.Deserialize(sr) as List<Customer>;
-                Customer isExist = list.FirstOrDefault(i=>i.Identity==item.Identity);
-                if (isExist != null) 
-                     list.Add(item);
+                Customer isExist = list.FirstOrDefault(i => i.Identity == item.Identity);
+                if (isExist == null)
+                    list.Add(item);
+               
+                
             }
             using (StreamWriter sw = new StreamWriter(filePath))
             {
@@ -31,23 +33,32 @@ namespace Dal
         }
         public void Delete(int id)
         {
+            List<Customer> list;
             using (StreamReader sr = new StreamReader(filePath))
             {
-
                 list = serializer.Deserialize(sr) as List<Customer>;
-                list.Remove(list.FirstOrDefault(customer => customer.Identity == id));
             }
+            var toRemove = list.FirstOrDefault(customer => customer.Identity == id);
+            if (toRemove != null)
+            {
+                list.Remove(toRemove);
+            }
+           
+
             using (StreamWriter sw = new StreamWriter(filePath))
             {
                 serializer.Serialize(sw, list);
             }
         }
-
         public Customer? Read(int id)
         {
             using (StreamReader sr = new StreamReader(filePath))
             {
-                list = serializer.Deserialize(sr) as List<Customer>;
+                try
+                {
+                    list = serializer.Deserialize(sr) as List<Customer>;
+                }
+               catch { return null; }
             }
             return list.FirstOrDefault(customer => customer.Identity == id);
         }

@@ -4,90 +4,84 @@
     <Identity>55678924</Identity>
     <Name>David levi</Name>
     <Address>Zait 34</Address>
-    <Phon>053-315-9804</Phon>
+    <Phone>053-315-9804</Phone>
   </Customer>
   <Customer>
     <Identity>90846483</Identity>
     <Name>chani cohen</Name>
     <Address>Te'enna 2</Address>
-    <Phon>055-678-5635</Phon>
+    <Phone>055-678-5635</Phone>
   </Customer>
   <Customer>
     <Identity>23463747</Identity>
     <Name>tamar green</Name>
     <Address>chitta 6</Address>
-    <Phon>052-716-0975</Phon>
-  </Customer>
-  <Customer>
-    <Identity>24354647</Identity>
-    <Name>shimon levin</Name>
-    <Address>geffen 76</Address>
-    <Phon>058-321-3433</Phon>
-  </Customer>
-  <Customer>
-    <Identity>64784947</Identity>
-    <Name>gad lev</Name>
-    <Address>ya'allom 21</Address>
-    <Phon>053-414-3453</Phon>
+    <Phone>052-716-0975</Phone>
   </Customer>
   <Customer>
     <Identity>97346477</Identity>
     <Name>dan praga</Name>
     <Address>prachim 9</Address>
-    <Phon>050-415-3452</Phon>
+    <Phone>050-415-3452</Phone>
   </Customer>
   <Customer>
     <Identity>56734836</Identity>
     <Name>tal feldman</Name>
     <Address>narkis 54</Address>
-    <Phon>055-677-0989</Phon>
+    <Phone>055-677-0989</Phone>
   </Customer>
   <Customer>
     <Identity>18181672</Identity>
     <Name>gili lebel</Name>
     <Address>rakefet 3</Address>
-    <Phon>050-417-4544</Phon>
+    <Phone>050-417-4544</Phone>
   </Customer>
   <Customer>
     <Identity>95673855</Identity>
     <Name>tzipi waiss</Name>
     <Address>sitvanit 88</Address>
-    <Phon>054-845-8986</Phon>
+    <Phone>054-845-8986</Phone>
   </Customer>
   <Customer>
     <Identity>78987603</Identity>
     <Name>rut levi</Name>
     <Address>chamanya 1</Address>
-    <Phon>054-855-1234</Phon>
+    <Phone>054-855-1234</Phone>
   </Customer>
   <Customer>
     <Identity>56346346</Identity>
     <Name>yair ben-tov</Name>
     <Address>etrog 91</Address>
-    <Phon>03-678-6734</Phon>
+    <Phone>03-678-6734</Phone>
   </Customer>
   <Customer>
     <Identity>86745843</Identity>
     <Name>ron or-olam</Name>
     <Address>chermon 33</Address>
-    <Phon>054-348-4532</Phon>
+    <Phone>054-348-4532</Phone>
   </Customer>
   <Customer>
     <Identity>13254657</Identity>
     <Name>itammar shalom</Name>
     <Address>yerushalaim 67</Address>
-    <Phon>050-956-3456</Phon>
+    <Phone>050-956-3456</Phone>
   </Customer>
   <Customer>
     <Identity>97634674</Identity>
     <Name>pini marom</Name>
     <Address>vered 29</Address>
-    <Phon>054-855-1234</Phon>
+    <Phone>054-855-1234</Phone>
   </Customer>
   <Customer>
-    <Identity>34256576</Identity>
-    <Name>daniel A'aroni</Name>
-    <Address>franck 50</Address>
-    <Phon>057-236-4532</Phon>
+    <Identity>64784947</Identity>
+    <Name>gad lev</Name>
+    <Address>ya'allom 21</Address>
+    <Phone>053-414-3453</Phone>
+  </Customer>
+  <Customer>
+    <Identity>97346478</Identity>
+    <Name>dan praga</Name>
+    <Address>prachim 9</Address>
+    <Phone>050-415-3452</Phone>
   </Customer>
 </ArrayOfCustomer>

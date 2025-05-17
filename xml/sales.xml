@@ -1,30 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
-    <codeIndex>0</codeIndex>
-    <ProductId>1020</ProductId>
-    <MinAmount>2</MinAmount>
-    <Price>45</Price>
-    <Club>true</Club>
-    <StartSaleDate>2025-05-06T09:33:23.4817436+03:00</StartSaleDate>
-    <EndSaleDate>2025-05-12T09:33:23.4841032+03:00</EndSaleDate>
-  </Sale>
-  <Sale>
-    <codeIndex>0</codeIndex>
-    <ProductId>1100</ProductId>
-    <MinAmount>1</MinAmount>
-    <Price>20</Price>
-    <Club>false</Club>
-    <StartSaleDate>2025-05-05T09:33:23.5087935+03:00</StartSaleDate>
-    <EndSaleDate>2025-05-19T09:33:23.5087958+03:00</EndSaleDate>
-  </Sale>
-  <Sale>
-    <codeIndex>0</codeIndex>
+    <codeIndex>5200</codeIndex>
     <ProductId>1160</ProductId>
     <MinAmount>3</MinAmount>
     <Price>55</Price>
     <Club>true</Club>
-    <StartSaleDate>2025-05-06T09:33:23.5224407+03:00</StartSaleDate>
-    <EndSaleDate>2025-05-09T09:33:23.5224426+03:00</EndSaleDate>
+    <StartSaleDate>2025-05-14T14:40:40.5877528+03:00</StartSaleDate>
+    <EndSaleDate>2025-05-17T14:40:40.5877586+03:00</EndSaleDate>
+  </Sale>
+  <Sale>
+    <codeIndex>5800</codeIndex>
+    <ProductId>1020</ProductId>
+    <MinAmount>2</MinAmount>
+    <Price>80</Price>
+    <Club>true</Club>
+    <StartSaleDate>2025-05-14T14:40:00</StartSaleDate>
+    <EndSaleDate>2025-05-20T14:40:00</EndSaleDate>
+  </Sale>
+  <Sale>
+    <codeIndex>5900</codeIndex>
+    <ProductId>1100</ProductId>
+    <MinAmount>5</MinAmount>
+    <Price>100</Price>
+    <Club>false</Club>
+    <StartSaleDate>2025-05-13T14:40:40</StartSaleDate>
+    <EndSaleDate>2025-05-27T14:40:40</EndSaleDate>
+  </Sale>
+  <Sale>
+    <codeIndex>6000</codeIndex>
+    <ProductId>1040</ProductId>
+    <MinAmount>3</MinAmount>
+    <Price>150</Price>
+    <Club>true</Club>
+    <StartSaleDate>2025-05-15T18:18:37.8782137+03:00</StartSaleDate>
+    <EndSaleDate>2025-05-29T18:18:37.873</EndSaleDate>
   </Sale>
 </ArrayOfSale>

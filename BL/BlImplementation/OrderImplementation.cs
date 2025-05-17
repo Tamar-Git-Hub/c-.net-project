@@ -38,17 +38,19 @@ namespace BlImplementation
                 var newProductInOrder = new BO.ProductInOrder
                 {
                     Id = product.Id,
+                    Name = product.Name,
                     Amount = amount,
                     Price = product.Price
                 };
                 order.ProductsInOrder.Add(newProductInOrder);
-                existingProductInOrder = newProductInOrder; // לעדכן למוצר החדש לוגית
+                existingProductInOrder = newProductInOrder; 
             }
-            SearchSaleForProduct(existingProductInOrder, false);
+            SearchSaleForProduct(existingProductInOrder, true);
             CalcTotalPriceForProduct(existingProductInOrder);
             CalcTotalPrice(order);
             return existingProductInOrder.Sales;
         }
+
 
         public void CalcTotalPrice(BO.Order order)
         {
@@ -56,25 +58,31 @@ namespace BlImplementation
                                  select product.Price).Sum();
         }
 
+
         public void CalcTotalPriceForProduct(BO.ProductInOrder productForCalc)
         {
             int count = productForCalc.Amount;
-            List<SaleInProduct> saleInProducts = new List<SaleInProduct>();
-            var sales = productForCalc.Sales
-                .Where(sale => sale.Amount >= count)
-                .Select(sale =>
-                {
-                    double sum = count / sale.Amount * sale.Price;
-                    count -= (int)(count / sale.Amount);
-                    saleInProducts.Add(sale);
-                    return new { sale, sum };
-                })
-                .TakeWhile(x => count > 0)
-                .ToList();
-            double total = sales.Sum(x => x.sum) + (count * productForCalc.Price);
+            double total = 0;
+            List<SaleInProduct> usedSales = new List<SaleInProduct>();
+
+            foreach (var sale in productForCalc.Sales)
+            {
+                if (count < sale.Amount)
+                    continue;
+
+                int times = count / sale.Amount;
+                total += times * sale.Price;
+                count -= times * sale.Amount;
+                usedSales.Add(sale);
+
+                if (count == 0)
+                    break;
+            }
+            total += count * productForCalc.Price;
             productForCalc.TotalPrice = total;
-            productForCalc.Sales = sales.Select(x => x.sale).ToList();
+            productForCalc.Sales = usedSales;
         }
+
 
         public void DoOrder(BO.Order order)
         {
@@ -83,7 +91,9 @@ namespace BlImplementation
             {
                 int cnt = order.ProductsInOrder
                            .Sum(p => p.Amount);
-                var update = order.ProductsInOrder.Select(p => { var x = _dal.product.Read(p.Id); if (x.AmountInStock < p.Amount) throw new Exception("אין מספיק במלאי מהמוצר"); return x with { AmountInStock = x.AmountInStock - p.Amount }; }).ToList();
+                var update = order.ProductsInOrder.Select(p => { var x = _dal.product.Read(p.Id); if (x.AmountInStock < p.Amount) 
+                        throw new Exception("אין מספיק במלאי מהמוצר"); 
+                    return x with { AmountInStock = x.AmountInStock - p.Amount }; }).ToList();
                 foreach ( var x in update)
                 {
                     _dal.product.Update(x);
@@ -116,3 +126,6 @@ namespace BlImplementation
         }
     }
 }
+
+
+

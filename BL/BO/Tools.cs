@@ -24,7 +24,7 @@ namespace BO
         }
         public static DO.Customer ConvertBOcustomerToDOcustomer(this BO.Customer customer)
         {
-            return new DO.Customer(customer.Identity, customer.Name,customer.Address, customer.Phon);
+            return new DO.Customer(customer.Identity, customer.Name,customer.Address, customer.Phone);
         }
         public static DO.Product ConvertBOproductToDOproduct(this BO.Product product)
         {
@@ -39,12 +39,38 @@ namespace BO
 
         public static BO.Customer ConvertDOcustomerToBOcustomer(this DO.Customer customer)
         {
-            return new BO.Customer(customer.Identity, customer.Name, customer.Address, customer.Phon);
+            return new BO.Customer(customer.Identity, customer.Name, customer.Address, customer.Phone);
         }
         public static BO.Product ConvertDOproductToBOproduct(this DO.Product product)
         {
-            return new BO.Product(product.Id, product.Name, product.Price, product.AmountInStock, (BO.Categories)product.category);
+            try
+            {
+                if(product==null)
+                {
+                    return null;
+                }
+                return new BO.Product(product.Id, product.Name, product.Price, product.AmountInStock, (BO.Categories)product.category);
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
+        //public static BO.Product ConvertDProductToBOProduct(this DO.Product product)
+        //{
+        //    try
+        //    {
+        //        if (product == null)
+        //        {
+        //            return null; 
+        //        }
+        //        return new BO.Product(product.Id, product.Name, product.Price, product.AmountInStock, (BO.Categories)product.category);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return null;
+        //    }
+        //}
         public static BO.Sale ConvertDOsaleToBOsale(this DO.Sale sale)
         {
             return new BO.Sale(sale.codeIndex, sale.ProductId, sale.MinAmount, sale.Price, sale.Club, sale.StartSaleDate, sale.EndSaleDate);

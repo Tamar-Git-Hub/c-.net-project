@@ -16,10 +16,12 @@ internal class SaleImplementation : IsaleAble
     List<Sale> list;
     public int Create(Sale item)
     {
+        int code = Config.CodeSale;
+        Sale sale = new Sale(code, item.ProductId, item.MinAmount, item.Price, item.Club, item.StartSaleDate, item.EndSaleDate);
         using (StreamReader sr = new StreamReader(filePath))
         {
             list = serializer.Deserialize(sr) as List<Sale>;
-            list.Add(item);
+            list.Add(sale);
         }
         using (StreamWriter sw = new StreamWriter(filePath))
         {
@@ -30,12 +32,17 @@ internal class SaleImplementation : IsaleAble
 
     public void Delete(int id)
     {
+        List<Sale> list;
         using (StreamReader sr = new StreamReader(filePath))
         {
             list = serializer.Deserialize(sr) as List<Sale>;
-            list.Remove(list.FirstOrDefault(s=>s.ProductId==id));
-            
         }
+        var toRemove = list.FirstOrDefault(sale => sale.codeIndex == id);
+        if (toRemove != null)
+        {
+            list.Remove(toRemove);
+        }
+
         using (StreamWriter sw = new StreamWriter(filePath))
         {
             serializer.Serialize(sw, list);
@@ -74,7 +81,7 @@ internal class SaleImplementation : IsaleAble
 
     public void Update(Sale item)
     {
-        Delete(item.ProductId);
+        Delete(item.codeIndex);
         Create(item);
     }
 }

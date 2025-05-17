@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DO;
+using static BO.Exceptions;
+using System.Reflection;
 
 namespace BlImplementation
 {
@@ -18,11 +20,13 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Create {item} Customer");
                 return _dal.customer.Create(item.ConvertBOcustomerToDOcustomer());
             }
             catch (Exception ex)
             {
-                throw new Exception();
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Create {item} Customer  Exception: {ex.Message}  ");
+                throw new BLIdNotFoundException("id exist");
             }
         }
 
@@ -31,10 +35,15 @@ namespace BlImplementation
             try
             {
                 _dal.customer.Delete(id);
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Delete {id} Customer");
+
             }
             catch (Exception ex)
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Delete {id} Customer  Exception {ex.Message}");
+
                 throw new Exception();
+
             }
         }
 
@@ -42,11 +51,13 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read Customer");
                 DO.Customer doRes=_dal.customer.Read(id);
                 return doRes.ConvertDOcustomerToBOcustomer();
             }
             catch
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read Customer   null");
                 return null;
             }
         }
@@ -55,12 +66,15 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read Customer");
                 DO.Customer customer = _dal.customer.Read(c => filter(c.ConvertDOcustomerToBOcustomer()));
                 return customer.ConvertDOcustomerToBOcustomer();
             }
             catch
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read Customer  NULL");
                 return null;
+
             }
                 
         }
@@ -68,7 +82,12 @@ namespace BlImplementation
         public List<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter = null)
         {
             if (filter == null)
-                return _dal.customer.ReadAll().Select(c=>c.ConvertDOcustomerToBOcustomer()).ToList();
+            {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "Read All Customer");
+                return _dal.customer.ReadAll().Select(c => c.ConvertDOcustomerToBOcustomer()).ToList();
+
+            }
+           
             return  _dal.customer.ReadAll(c => filter(c.ConvertDOcustomerToBOcustomer())).Select(c=>c.ConvertDOcustomerToBOcustomer()).ToList();
         }
 
@@ -76,10 +95,12 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Update {item} Customer");
                 _dal.customer.Update(item.ConvertBOcustomerToDOcustomer());
             }
             catch( Exception ex) 
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Update {item} Customer   Exception {ex.Message} ");
                 throw new Exception();
             }
         }

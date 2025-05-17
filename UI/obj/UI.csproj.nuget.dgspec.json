@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\DotNet2025_XXXX_YYYY\\UI\\UI.csproj": {}
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\UI\\UI.csproj": {}
   },
   "projects": {
-    "M:\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj": {
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj",
         "projectName": "BlTest",
-        "projectPath": "M:\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj",
-        "packagesPath": "C:\\Users\\TZIPPRALEB\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_XXXX_YYYY\\BlTest\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BlTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TZIPPRALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -34,11 +33,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj"
               }
             }
           }
@@ -52,8 +51,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -74,25 +72,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj": {
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "M:\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\TZIPPRALEB\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_XXXX_YYYY\\BL\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TZIPPRALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -108,14 +105,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj"
               }
             }
           }
@@ -129,8 +126,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -151,25 +147,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\TZIPPRALEB\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TZIPPRALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -196,8 +191,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -218,25 +212,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\TZIPPRALEB\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_XXXX_YYYY\\DalList\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TZIPPRALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -252,11 +245,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj"
               }
             }
           }
@@ -270,8 +263,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -292,25 +284,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj": {
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj",
         "projectName": "DalText",
-        "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj",
-        "packagesPath": "C:\\Users\\TZIPPRALEB\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_XXXX_YYYY\\DalText\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalText\\DalText.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalText\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TZIPPRALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -326,17 +317,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj"
               }
             }
           }
@@ -350,8 +341,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -372,25 +362,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj": {
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj",
         "projectName": "DalXml",
-        "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj",
-        "packagesPath": "C:\\Users\\TZIPPRALEB\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_XXXX_YYYY\\DalXml\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalXml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TZIPPRALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -406,8 +395,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalFacade\\DalFacade.csproj"
               }
             }
           }
@@ -421,8 +410,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -443,25 +431,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj": {
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "M:\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj",
-        "packagesPath": "C:\\Users\\TZIPPRALEB\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_XXXX_YYYY\\Tools\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TZIPPRALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -488,8 +475,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -510,25 +496,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\DotNet2025_XXXX_YYYY\\UI\\UI.csproj": {
+    "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_XXXX_YYYY\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "M:\\DotNet2025_XXXX_YYYY\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\TZIPPRALEB\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_XXXX_YYYY\\UI\\obj\\",
+        "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TZIPPRALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -544,14 +529,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "M:\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\BlTest\\BlTest.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalList\\DalList.csproj"
               },
-              "M:\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj": {
-                "projectPath": "M:\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj"
+              "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\DotNet2025_XXXX_YYYY\\DalXml\\DalXml.csproj"
               }
             }
           }
@@ -565,8 +550,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -590,7 +574,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

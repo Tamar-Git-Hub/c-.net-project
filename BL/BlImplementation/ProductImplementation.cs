@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace BlImplementation
 {
@@ -15,10 +16,13 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Create {item} Product");
                 return _dal.product.Create(item.ConvertBOproductToDOproduct());
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $" {item} was added");
             }
             catch (Exception ex)
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Create {item} Product   Exception: {ex.Message}");
                 throw new Exception();
             }
         }
@@ -27,10 +31,12 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Delete {id} Product");
                 _dal.product.Delete(id);
             }
             catch (Exception ex)
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Delete {id} Product  Exception: {ex.Message}");
                 throw new Exception();
             }
         }
@@ -58,11 +64,13 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read {id} Product");
                 DO.Product doRes = _dal.product.Read(id);
                 return doRes.ConvertDOproductToBOproduct();
             }
             catch (Exception e) 
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read {id} Product  null");
                 return null;
             }
         }
@@ -71,11 +79,13 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read Product");
                 DO.Product product = _dal.product.Read(c => filter(c.ConvertDOproductToBOproduct()));
                 return product.ConvertDOproductToBOproduct();
             }
             catch
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read Product  null");
                 return null;
             }
 
@@ -84,9 +94,10 @@ namespace BlImplementation
         public List<BO.Product?> ReadAll(Func<BO.Product, bool>? filter = null)
         {
             if (filter == null)
-               
-                
-                return _dal.product.ReadAll().Select(p=>p.ConvertDOproductToBOproduct()).ToList();
+            {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"ReadAll Product");
+                return _dal.product.ReadAll().Select(p => p.ConvertDOproductToBOproduct()).ToList();
+            }
             return _dal.product.ReadAll(p => filter(p.ConvertDOproductToBOproduct())).Select(p=> p.ConvertDOproductToBOproduct()).ToList();
         }
 
@@ -94,10 +105,12 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Update {item} Product");
                 _dal.product.Update(item.ConvertBOproductToDOproduct());
             }
             catch (Exception ex)
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Update {item} Product  Exeption: {ex.Message}");
                 throw new Exception();
             }
         }

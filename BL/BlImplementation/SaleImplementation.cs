@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace BlImplementation
 {
@@ -15,10 +16,13 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Create {item} Sale");
                 return _dal.sale.Create(item.ConvertBOsaleToDOsale());
+
             }
             catch (Exception ex)
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Create {item} Sale Exeption: {ex.Message}");
                 throw new Exception();
             }
         }
@@ -27,10 +31,12 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Delete {id} Sale");
                 _dal.sale.Delete(id);
             }
             catch (Exception ex)
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Delete {id} Sale Exepion: {ex.Message}");
                 throw new Exception();
             }
         }
@@ -41,10 +47,12 @@ namespace BlImplementation
             try
             {
                 DO.Sale doRes = _dal.sale.Read(id);
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read {id} Sale");
                 return doRes.ConvertDOsaleToBOsale();
             }
             catch
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read {null} Sale");
                 return null;
             }
         }
@@ -54,10 +62,12 @@ namespace BlImplementation
             try
             {
                 DO.Sale sale = _dal.sale.Read(s=> filter(s.ConvertDOsaleToBOsale()));
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read {sale} Sale");
                 return sale.ConvertDOsaleToBOsale();
             }
             catch
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Read {null} Sale");
                 return null;
             }
         }
@@ -65,7 +75,10 @@ namespace BlImplementation
         public List<BO.Sale?> ReadAll(Func<BO.Sale, bool>? filter = null)
         {
             if (filter == null)
+            {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "ReadAll Sale");
                 return _dal.sale.ReadAll().Select(s => s.ConvertDOsaleToBOsale()).ToList();
+            }
             return _dal.sale.ReadAll(s => filter(s.ConvertDOsaleToBOsale())).Select(s => s.ConvertDOsaleToBOsale()).ToList();
         }
 
@@ -73,10 +86,12 @@ namespace BlImplementation
         {
             try
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Update {item} Sale");
                 _dal.sale.Update(item.ConvertBOsaleToDOsale());
             }
             catch (Exception ex)
             {
+                Tools.LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, $"Update {item} Sale Exeption: {ex.Message}");
                 throw new Exception();
             }
         }

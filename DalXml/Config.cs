@@ -28,7 +28,7 @@ namespace Dal
             {
                 XElement configXml = XElement.Load(filePath);
                 int code = int.Parse(configXml.Element("CodeSale").Value);
-                configXml.Element("CodeSale").SetValue(code + 10);
+                configXml.Element("CodeSale").SetValue(code + 100);
                 configXml.Save(filePath);
                 return code;
             }

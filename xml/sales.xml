@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
-    <codeIndex>5200</codeIndex>
-    <ProductId>1160</ProductId>
-    <MinAmount>3</MinAmount>
-    <Price>55</Price>
-    <Club>true</Club>
-    <StartSaleDate>2025-05-14T14:40:40.5877528+03:00</StartSaleDate>
-    <EndSaleDate>2025-05-17T14:40:40.5877586+03:00</EndSaleDate>
-  </Sale>
-  <Sale>
     <codeIndex>5800</codeIndex>
     <ProductId>1020</ProductId>
     <MinAmount>2</MinAmount>
@@ -35,5 +26,14 @@
     <Club>true</Club>
     <StartSaleDate>2025-05-15T18:18:37.8782137+03:00</StartSaleDate>
     <EndSaleDate>2025-05-29T18:18:37.873</EndSaleDate>
+  </Sale>
+  <Sale>
+    <codeIndex>6200</codeIndex>
+    <ProductId>1160</ProductId>
+    <MinAmount>3</MinAmount>
+    <Price>55</Price>
+    <Club>true</Club>
+    <StartSaleDate>2025-05-14T14:40:40</StartSaleDate>
+    <EndSaleDate>2025-05-17T14:40:40</EndSaleDate>
   </Sale>
 </ArrayOfSale>

@@ -112,11 +112,9 @@
             numericUpDown_add.Location = new Point(641, 254);
             numericUpDown_add.Margin = new Padding(3, 4, 3, 4);
             numericUpDown_add.Maximum = new decimal(new int[] { 100000, 0, 0, 0 });
-            numericUpDown_add.Minimum = new decimal(new int[] { 1000, 0, 0, 0 });
             numericUpDown_add.Name = "numericUpDown_add";
             numericUpDown_add.Size = new Size(137, 27);
             numericUpDown_add.TabIndex = 9;
-            numericUpDown_add.Value = new decimal(new int[] { 1000, 0, 0, 0 });
             // 
             // listBox1
             // 
@@ -126,6 +124,7 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(745, 224);
             listBox1.TabIndex = 8;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // label_total
             // 
@@ -145,7 +144,6 @@
             comboBoxProducts.Name = "comboBoxProducts";
             comboBoxProducts.Size = new Size(217, 28);
             comboBoxProducts.TabIndex = 17;
-            comboBoxProducts.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label3
             // 

@@ -4,21 +4,21 @@
     <Id>1000</Id>
     <Name>Creamy pasta</Name>
     <Price>30</Price>
-    <AmountInStock>10</AmountInStock>
+    <AmountInStock>1</AmountInStock>
     <category>milky</category>
   </Product>
   <Product>
     <Id>1020</Id>
     <Name>Lezania</Name>
     <Price>55</Price>
-    <AmountInStock>35</AmountInStock>
+    <AmountInStock>32</AmountInStock>
     <category>milky</category>
   </Product>
   <Product>
     <Id>1030</Id>
     <Name>pizza</Name>
     <Price>20</Price>
-    <AmountInStock>90</AmountInStock>
+    <AmountInStock>86</AmountInStock>
     <category>milky</category>
   </Product>
   <Product>
@@ -67,7 +67,7 @@
     <Id>1100</Id>
     <Name>Pumpkin soup</Name>
     <Price>25</Price>
-    <AmountInStock>35</AmountInStock>
+    <AmountInStock>26</AmountInStock>
     <category>parve</category>
   </Product>
   <Product>
@@ -137,7 +137,7 @@
     <Id>1200</Id>
     <Name>Fillo with minced meat</Name>
     <Price>45</Price>
-    <AmountInStock>10</AmountInStock>
+    <AmountInStock>7</AmountInStock>
     <category>meaty</category>
   </Product>
   <Product>
@@ -220,7 +220,7 @@
   <Product>
     <Id>1320</Id>
     <Name>Lemon Lime</Name>
-    <Price>15</Price>
+    <Price>20</Price>
     <AmountInStock>110</AmountInStock>
     <category>parveDrink</category>
   </Product>
@@ -228,7 +228,7 @@
     <Id>1330</Id>
     <Name>Natural pomegranate juice</Name>
     <Price>28</Price>
-    <AmountInStock>50</AmountInStock>
+    <AmountInStock>49</AmountInStock>
     <category>parveDrink</category>
   </Product>
   <Product>

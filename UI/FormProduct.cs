@@ -49,15 +49,16 @@ namespace UI
                 numericUpDown_price.Value = (decimal)price;
                 numericUpDown_amount.Value = amount;
                 comboBox_category.SelectedItem = category;
-                if (!UpdatePanel.Visible)
+                if (!UpdatePanel.Visible&&!panel_add.Visible)
                 {
                     panal_one_product.Visible = true;
+                    panal_one_product.Controls.Clear(); 
                     Label itemLabel = new Label();
                     itemLabel.Text = $"Code: {p.Id}\n" +
                                      $"Name: {p.Name}\n" +
                                      $"Price: {p.Price}\n" +
-                                     $"Amount: {p.AmountInStock}"+
-                                     $"Category: {p.category}";
+                                     $"Amount: {p.AmountInStock} \n"+
+                                     $"Category: {p.category}\n";
 
                     itemLabel.AutoSize = true;
                     itemLabel.ForeColor = Color.OrangeRed;

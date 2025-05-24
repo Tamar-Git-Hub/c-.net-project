@@ -47,22 +47,23 @@ namespace UI
                 checkBox_club_u.Checked = club;
                 dateTimePicker_start.Text = startSaleDate.ToString();
                 dateTimePicker_end.Text = endSaleDate.ToString();
-                if (!updatePanel.Visible)
+                if (!updatePanel.Visible&&!addPanel.Visible)
                 {
                     panal_one_product.Visible = true;
+                    panal_one_product.Controls.Clear();
                     Label itemLabel = new Label();
-                    itemLabel.Text = $"codeIndex: {s.codeIndex}\n" +
+                             itemLabel.Text = $"codeIndex: {s.codeIndex}\n" +
                                      $"ProductId: {s.ProductId}\n" +
                                      $"minAmount: {s.MinAmount}\n" +
                                      $"Price: {s.Price}\n" +
-                                     $"Club: {s.Club}" +
-                                     $"Start Sale: {s.StartSaleDate}"+
-                                     $"End Sale: {s.EndSaleDate}"
+                                     $"Club: {s.Club} \n" +
+                                     $"Start Sale: {s.StartSaleDate} \n" +
+                                     $"End Sale: {s.EndSaleDate}  \n"
                                      ;
 
                     itemLabel.AutoSize = true;
                     itemLabel.ForeColor = Color.OrangeRed;
-                    panal_one_product.Controls.Add(itemLabel); panal_one_product.Visible = true;
+                    panal_one_product.Controls.Add(itemLabel); 
                 }
             }
         }

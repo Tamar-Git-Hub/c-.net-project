@@ -56,21 +56,6 @@ namespace BO
                 return null;
             }
         }
-        //public static BO.Product ConvertDProductToBOProduct(this DO.Product product)
-        //{
-        //    try
-        //    {
-        //        if (product == null)
-        //        {
-        //            return null; 
-        //        }
-        //        return new BO.Product(product.Id, product.Name, product.Price, product.AmountInStock, (BO.Categories)product.category);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return null;
-        //    }
-        //}
         public static BO.Sale ConvertDOsaleToBOsale(this DO.Sale sale)
         {
             return new BO.Sale(sale.codeIndex, sale.ProductId, sale.MinAmount, sale.Price, sale.Club, sale.StartSaleDate, sale.EndSaleDate);

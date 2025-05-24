@@ -98,7 +98,8 @@ namespace BlImplementation
                 {
                     _dal.product.Update(x);
                 }
-                
+                order.ProductsInOrder = new List<ProductInOrder>();
+
             }
             catch
             {

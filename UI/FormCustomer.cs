@@ -43,9 +43,10 @@ namespace UI
                 text_name.Text = name;
                 textBox_address.Text = address;
                 textBox_phone.Text = phone;
-                if (!UpdatePanel.Visible)
+                if (!UpdatePanel.Visible && !AddPanel.Visible)
                 {
                     panal_one_product.Visible = true;
+                    panal_one_product.Controls.Clear();
                     Label itemLabel = new Label();
                     itemLabel.Text = $"ID: {c.Identity}\n" +
                                      $"Name: {c.Name}\n" +

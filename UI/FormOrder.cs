@@ -40,40 +40,29 @@ namespace UI
 
             int productId = (int)numericUpDown_add.Value;
             int amount = (int)numericUpDown_amount.Value;
-            try
+            if (productId >= 1000)
             {
-               p = s_bl.product.Read(productId);
-            }catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message);
+                try
+                {
+                    p = s_bl.product.Read(productId);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
             if (amount == 0)
             {
                 MessageBox.Show("Please add quantity");
             }
-            if (p == null)
+            if (p == null&& productId > 999)
             {
                 MessageBox.Show("Code does not exist");
             }
-            if (p != null && amount > 0 && productId > 100)
+            if (p != null && amount > 0 && productId > 999)
             {
                 s_bl.order.AddProductToOrder(order, productId, amount);
-                listBox1.Items.Clear();
-
-                foreach (var item in order.ProductsInOrder)
-                {
-                    string line = $"name: {item.Name}         amount: {item.Amount}         price: {item.Price}         total price: {item.TotalPrice}";
-                    if (item.TotalPrice != item.Price * item.Amount)
-                        line += $"     sale: - {item.Price * item.Amount - item.TotalPrice}";
-                    listBox1.Items.Add(line);
-                    totalPrice += item.TotalPrice;
-                }
-                label_total.Text = "";
-                label_total.Text += totalPrice + " ₪";
-                totalPrice = 0;
-                numericUpDown_add.Value = 1000;
-                numericUpDown_amount.Value = 0;
-
+                addToCart();
             }
             else
             {
@@ -81,22 +70,47 @@ namespace UI
                 {
                     try
                     {
-
-                        //s_bl.order.AddProductToOrder(order, product.Id, amount);
+                        try
+                        {
+                            s_bl.order.AddProductToOrder(order, product.Id, amount);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
                         productId = product.Id;
+                        addToCart();
+
                     }
-                    catch
+                    catch(Exception ex)
                     {
 
-                        MessageBox.Show("Code does not exist");
+                        MessageBox.Show(ex.Message);
                     }
+
+
                 }
             }
-          
+
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void addToCart()
         {
+            listBox1.Items.Clear();
+
+            foreach (var item in order.ProductsInOrder)
+            {
+                string line = $"name: {item.Name}         amount: {item.Amount}         price: {item.Price}         total price: {item.TotalPrice}";
+                if (item.TotalPrice != item.Price * item.Amount)
+                    line += $"     sale: - {item.Price * item.Amount - item.TotalPrice}";
+                listBox1.Items.Add(line);
+                totalPrice += item.TotalPrice;
+            }
+            label_total.Text = "";
+            label_total.Text += totalPrice + " ₪";
+            totalPrice = 0;
+            numericUpDown_add.Value = 0;
+            numericUpDown_amount.Value = 0;
 
         }
 
@@ -124,6 +138,11 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

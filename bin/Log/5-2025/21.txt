@@ -1,0 +1,24 @@
+21/05/2025 01:48:32	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 01:48:48	BlImplementation.ProductImplementation.Read:	Read 1100 Product
+21/05/2025 01:50:23	BlImplementation.ProductImplementation.Read:	Read 1040 Product
+21/05/2025 01:53:23	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+21/05/2025 01:53:30	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 01:53:39	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 01:54:21	BlImplementation.ProductImplementation.Read:	Read 1100 Product
+21/05/2025 01:54:49	BlImplementation.ProductImplementation.Read:	Read 1010 Product
+21/05/2025 01:58:43	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 01:59:00	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 01:59:08	BlImplementation.ProductImplementation.Read:	Read 1030 Product
+21/05/2025 01:59:16	BlImplementation.ProductImplementation.Read:	Read 1030 Product
+21/05/2025 02:00:14	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 02:00:57	BlImplementation.ProductImplementation.Read:	Read 1030 Product
+21/05/2025 02:01:48	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 02:02:40	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 02:02:50	BlImplementation.ProductImplementation.Read:	Read 1000 Product
+21/05/2025 02:04:32	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 02:04:39	BlImplementation.ProductImplementation.Read:	Read 1000 Product
+21/05/2025 02:04:52	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+21/05/2025 02:04:59	BlImplementation.ProductImplementation.Read:	Read 1200 Product
+21/05/2025 02:05:22	BlImplementation.ProductImplementation.Read:	Read 1100 Product
+21/05/2025 02:05:33	BlImplementation.ProductImplementation.Read:	Read 1000 Product
+21/05/2025 02:05:58	BlImplementation.ProductImplementation.Read:	Read 1020 Product

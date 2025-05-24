@@ -10,3 +10,102 @@
 18/05/2025 00:12:17	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
 18/05/2025 00:12:19	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
 18/05/2025 00:12:32	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:01:32	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:01:58	BlImplementation.ProductImplementation.Create:	Create Id = 0
+Name = 'WWW
+Price = 78
+AmountInStock = 2
+category = 
+ Product
+18/05/2025 16:01:58	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:02:12	BlImplementation.ProductImplementation.Update:	Update Id = 1350
+Name = TTT
+Price = 78
+AmountInStock = 2
+category = 
+ Product
+18/05/2025 16:02:12	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:02:54	BlImplementation.ProductImplementation.Delete:	Delete 1350 Product
+18/05/2025 16:02:54	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:03:03	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:03:08	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:03:09	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:03:13	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:03:21	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:03:29	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:03:48	BlImplementation.ProductImplementation.Read:	Read 1030 Product
+18/05/2025 16:04:05	BlImplementation.ProductImplementation.Read:	Read 1000 Product
+18/05/2025 16:04:23	BlImplementation.ProductImplementation.Read:	Read 1000 Product
+18/05/2025 16:04:28	BlImplementation.ProductImplementation.Read:	Read 1000 Product
+18/05/2025 16:04:31	BlImplementation.ProductImplementation.Read:	Read 1000 Product
+18/05/2025 16:44:53	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:45:07	BlImplementation.ProductImplementation.Create:	Create Id = 0
+Name = AAA
+Price = 20
+AmountInStock = 3
+category = 
+ Product
+18/05/2025 16:45:07	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:45:44	BlImplementation.ProductImplementation.Update:	Update Id = 1320
+Name = Lemon Lime
+Price = 20
+AmountInStock = 110
+category = 
+ Product
+18/05/2025 16:45:44	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:46:00	BlImplementation.ProductImplementation.Delete:	Delete 1360 Product
+18/05/2025 16:46:00	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:46:31	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 16:46:39	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:47:19	BlImplementation.CustomerImplementation.Create:	Create Identity = 1111111
+Name = 11111111
+Address = 1111111
+Phone = 111111111111
+ Customer
+18/05/2025 16:47:19	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:47:28	BlImplementation.CustomerImplementation.Update:	Update Identity = 1111111
+Name = 222222222222
+Address = 1111111
+Phone = 111111111111
+ Customer
+18/05/2025 16:47:28	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:47:33	BlImplementation.CustomerImplementation.Delete:	Delete 1111111 Customer
+18/05/2025 16:47:33	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:47:35	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:47:37	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:47:40	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:47:45	BlImplementation.CustomerImplementation.ReadAll:	Read All Customer
+18/05/2025 16:47:51	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 16:50:32	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 16:52:35	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:30:16	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:31:07	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:34:26	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:35:04	BlImplementation.SaleImplementation.Update:	Update codeIndex = 5200
+ProductId = 1160
+MinAmount = 4
+Price = 55
+Club = True
+StartSaleDate = 14/05/2025 14:40:40
+EndSaleDate = 17/05/2025 14:40:40
+ Sale
+18/05/2025 19:35:04	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:36:28	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:38:03	BlImplementation.SaleImplementation.Update:	Update codeIndex = 6100
+ProductId = 1160
+MinAmount = 3
+Price = 55
+Club = True
+StartSaleDate = 14/05/2025 14:40:40
+EndSaleDate = 17/05/2025 14:40:40
+ Sale
+18/05/2025 19:39:27	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:50:29	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 19:50:45	BlImplementation.ProductImplementation.Read:	Read 1000 Product
+18/05/2025 19:50:56	BlImplementation.ProductImplementation.Read:	Read 1030 Product
+18/05/2025 19:51:43	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:52:14	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 19:52:22	BlImplementation.ProductImplementation.Read:	Read 1200 Product
+18/05/2025 19:52:57	BlImplementation.SaleImplementation.ReadAll:	ReadAll Sale
+18/05/2025 19:53:21	BlImplementation.ProductImplementation.ReadAll:	ReadAll Product
+18/05/2025 19:53:30	BlImplementation.ProductImplementation.Read:	Read 1020 Product

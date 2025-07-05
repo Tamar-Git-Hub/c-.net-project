@@ -30,17 +30,17 @@ UI: הממשק הגרפי שמאפשר אינטראקציה עם המשתמש.
 
 הוראות הרצה
 דרישות מוקדמות
+
 Visual Studio או IDE אחר שתומך ב-C#.
 
 .NET Framework או .NET Core מותקן.
 
 שלב 1: הורדה
+
 הורד את קוד הפרויקט:
 
-bash
-Copy
-Edit
 git clone https://github.com/username/project-name.git
+
 שלב 2: בניית הפרויקט
 פתח את הפרויקט ב־Visual Studio.
 

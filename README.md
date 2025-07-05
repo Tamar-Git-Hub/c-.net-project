@@ -39,7 +39,7 @@ Visual Studio או IDE אחר שתומך ב-C#.
 
 הורד את קוד הפרויקט:
 
-git clone https://github.com/username/project-name.git
+git clone https://github.com/Tamar-Git-Hub/c-.net-project.git
 
 שלב 2: בניית הפרויקט
 פתח את הפרויקט ב־Visual Studio.
